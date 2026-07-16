@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form action="processa.html" method="get">
+        <label for="email">E-mail:</label>
+        <br>
+            <input type="text" name="Email" id="email" placeholder="Digite o E-mail">
+         <br>
+         <label for="senha">Senha:</label>
+
+         <br>
+        <input type="password" name="Senha" id="senha" placeholder="Digite a senha"> <br>
+       
+
+        Gênero <br>
+
+        <input type="radio" name="genero" value="feminino" id="feminino">
+        <label for="feminino">Feminino</label>
+
+        <input type="radio" name="genero" value="masculino" id="masculino">
+        <label for="masculino">Masculino</label> 
+        
+        <br><br>
+
+        Estilo musical<br>
+        <input type="checkbox" name="estilo" id="pop" value="pop">
+        <label for="pop">Pop</label>
+
+        <input type="checkbox" name="estilo" id="rock" value="rock">
+        <label for="rock">Rock</label>
+
+        <input type="checkbox" name="estilo" id="rap" value="rap">
+        <label for="rap">Rap</label>
+
+        <br><br>
+
+        Estado:
+        <select name="estado">
+            <option value="">Selecione...</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+            <option value="BH">Belo horizonte</option>
+            <option value="MG">Minas Gerais</option>
+        </select>
+
+        <br><br>
+        Upload de arquivo:
+        <input type="file" name="Arquivo">
+        <br><br>        
+
+        <input type="submit" value="Cadastrar">
+
+
+
+
+
+
+
+
+        
+        
+        
+         <!--<button>Enviar</button>-->
+         <!--<input type="button" value="Entrar">-->
+
+
+    </form>
+  
+    <br><br>
+
+    <h2>Fieldset e legend</h2>
+
+    <form action="">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            <label for="email2">Email:</label>
+            <input type="text" name="email" id="email2">
+        </fieldset>
+       
+        <fieldset>
+            <legend>Dados adicionais</legend>
+            <input type="radio" name="genero" id="feminino2">
+            <label for="feminino2">Feminino</label>
+            
+            <input type="radio" name="genero" id="masculino2">
+            <label for="masculino2">Masculino</label>
+        </fieldset>
+
+    
+    </form>
+
+    
+</body>
+</html>
