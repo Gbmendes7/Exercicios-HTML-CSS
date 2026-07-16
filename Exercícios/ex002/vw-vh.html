@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vw e vh</title>
+   
+   <style>  
+        body {
+
+        
+        }
+
+        #area {
+            border: 3px solid black;
+            width: 500px;
+        }
+        .pixel {
+            border: 1px solid black;
+            background-color: red;
+            padding: 8px;
+            width: 200px;
+            
+        }
+
+        .Porcentagem {
+             border: 1px solid black;
+            background-color: red;
+            padding: 8px;
+            width: 25%;
+            
+        }
+
+         .vw {
+             border: 1px solid black;
+            background-color: red;
+            padding: 8px;
+            width: 25vw;
+        }
+
+
+        /* Porcentagem é relativo ao pai, no caso o body, enquanto VW é relativo ao espaçamento total da página*/
+
+    </style>
+</head>
+<body>
+
+    <div class="pixel">Pixel é uma medida absoluta</div>
+    <div class="Porcentagem">Porcentagem(25%)</div>
+    <div class="vw">VW(25vw)</div>
+
+    <hr>
+
+    <div id="area">
+        <div class="pixel">Pixel é uma medida absoluta</div>
+        <div class="Porcentagem">Porcentagem(25%)</div>
+        <div class="vw">VW(25vw)</div>
+    </div>
+
+    
+    
+</body>
+</html>
